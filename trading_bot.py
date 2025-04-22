@@ -23,8 +23,8 @@ logging.basicConfig(
 
 # ===== Configuration =====
 # Alpaca API Configuration
-API_KEY = 'PK1RTYE41AZHNX2DCN0L'
-API_SECRET = 'Gz1HzRUsPbcfgMxMFeT7LuzxfGbkQbJdTJKOLQg9'
+API_KEY = ''
+API_SECRET = ''
 BASE_URL = 'https://paper-api.alpaca.markets'  # Paper trading URL
 
 # Trading Configuration
@@ -81,7 +81,7 @@ OLLAMA_BASE_URL = "http://localhost:11434"
 OLLAMA_MODEL = "mistral:7b"  # Using Mistral 7B model
 
 # News API Configuration
-NEWS_API_KEY = '986367fc4934459fa3fdefa6a8a727d0'  # News API key
+NEWS_API_KEY = ''  # News API key
 NEWS_API_URL = 'https://newsapi.org/v2/everything'
 
 # Trading parameters for each symbol
